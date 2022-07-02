@@ -1,0 +1,117 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>survey form</title>
+        <meta name="description" content="TRIBUTE PAGE FOR STEVE JOBS">
+        <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Lato|Oswald|Pacifico|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"> 
+    </head>
+    <body>
+        <div class="backgroundImage">
+            <!-------------------Horizotal Menu------------->
+            <div class="Hmenu" >
+                <table width="100%">
+                    <tr>
+                        <td align="left"><a href="#" class="Href"><b>Survey Form</b></a><br>
+                            <a href="#" class="Href">&nbsp;&nbsp; survey.com</a></td>
+                        <td align="right">
+                            <button class="Hbutton"> &#9829; </button>
+                            <button class="Hbutton">View in Editor</button>
+                            <button class="Hbutton">Sign Up</button>
+                            <button class="Hbutton">Log In</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-------------------heading------------->
+            <div class="headerStyle">
+                <h1 >Survey Form</h1>
+                <h4>Thank you for taking the time to help us improve the platform</h4>
+            </div>
+
+            <!-------------------backgroundImage------------->
+
+            <!-------------------FieldSet------------->
+            <div>
+                <fieldset class="FieldSetStyle">
+                    <form>
+                        <div>
+                            <label for="Name">Name</label><br>
+                                <input id="Name" type="text" placeholder="Enter Your Name" class="inputfeildStyle">   
+                        </div>
+                        <div>
+                            <label for="Email">Email</label><br>
+                                <input id="Email" type="text" placeholder="Enter Your Email" class="inputfeildStyle">    
+                        </div>
+                        <div>
+                            <label for="Age">Age(optional)</label><br>
+                                <input id="Age" type="text" placeholder="Enter Your Age" class="inputfeildStyle">    
+                        </div>
+                        <div>
+                            <label for="role">Which option best describes your current role?</label><br>
+                                <select class="inputfeildStyle">
+                                    <option value="student">Student</option>
+                                    <option value="job">Full Time Job</option>
+                                    <option value="learner">Full Time Learner</option>
+                                    <option value="preferNo">Prefer not to say</option>
+                                    <option value="other">Other</option>
+                                </select>   
+                        </div>
+                        <div>
+                            <label>Would you recommend freeCodeCamp to a friend?</label><br> 
+                                <input value="definitely" type="radio" checked>Definitely</br>
+                                <input value="maybe" type="radio">Maybe</br>
+                                <input value="not-sure" type="radio">Not sure</br>
+                        </div>
+                        <div>
+                            <label>What is your favorite feature of freeCodeCamp?</label><br> 
+                            <select class="inputfeildStyle">
+                                <option value="challenges">Challenges</option>
+                                <option value="projects">Projects</option>
+                                <option value="community">Community</option>
+                                <option value="openSource">Open Source</option>                        
+                            </select>
+                        </div>
+                        <div>
+                            <label>What would you like to see improved? (Check all that apply)</label><br> 
+                            
+                            <input ID="front-end-projects" type="checkbox">
+                            <label for="front-end-projects">front-end-projects</label><br>                     
+                            <input ID="Back-end-projects" type="checkbox">
+                            <label for="Back-end-projects">Back-end-projects</label><br>                     
+                            <input ID="Data Visualization" type="checkbox">
+                            <label for="Data Visualization">Data Visualization</label><br>                     
+                            <input ID="Challenges" type="checkbox">
+                            <label for="Challenges" type="">Challenges</label><br>                     
+                            <input ID="Open Source Community" type="checkbox">
+                            <label for="Open Source Community">Open Source Community</label><br>                     
+                            <input ID="Gitter help rooms" type="checkbox">
+                            <label for="Gitter help rooms">Gitter help rooms</label><br>                     
+                            <input ID="Videos" type="checkbox">
+                            <label for="Videos">Videos</label><br>                     
+                            <input ID="City Meetups" type="checkbox">
+                            <label for="City Meetups" type">City Meetups</label><br>                     
+                            <input ID="Wiki" type="checkbox">
+                            <label for="Wiki" type="checkb">Wiki</label><br>                     
+                            <input ID="Forum" type="checkbox">
+                            <label for="Forum" type="check">Forum</label><br>                     
+                            <input ID="Additional Courses" type="checkbox">
+                            <label for="Additional Courses">Additional Courses</label><br>                     
+                        </div>
+                        <div>
+                            <label for="comment">Any comments or suggestions?</label><br>
+                            <textarea class="inputtextareaStyle" ID="comment"  rows="5" cols="40" placeholder="Enter your suggestions here..." ></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="submitBstyle">Submit</button>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+
+    </body>
+</html>
